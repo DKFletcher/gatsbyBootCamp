@@ -5,7 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'MADFullStack v1.1',
+    author: 'D K Fletcher' 
+  },
   plugins: [
     'gatsby-plugin-sass'
   ],
