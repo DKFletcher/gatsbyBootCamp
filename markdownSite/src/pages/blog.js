@@ -17,7 +17,7 @@ const BlogPage = () => {
       }
     }
   `)
-  const posts = data.allMarkdownRemark.edges.map(post => (
+  data.allMarkdownRemark.edges.map(post => (
     <li>
       <h3>{post.node.frontmatter.title}</h3>
       <h3>{post.node.frontmatter.date}</h3>
